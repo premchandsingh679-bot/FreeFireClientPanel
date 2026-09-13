@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Screen Padding -->
+    <dimen name="screen_padding">20dp</dimen>
+    <dimen name="card_padding">18dp</dimen>
+    <dimen name="card_padding_end">12dp</dimen>
+    
+    <!-- Margins -->
+    <dimen name="margin_large">25dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_tiny">8dp</dimen>
+    
+    <!-- Text Sizes -->
+    <dimen name="title_size">28sp</dimen>
+    <dimen name="subtitle_size">14sp</dimen>
+    <dimen name="label_size">16sp</dimen>
+    <dimen name="status_text_size">16sp</dimen>
+    <dimen name="footer_text_size">11sp</dimen>
+    
+    <!-- Heights -->
+    <dimen name="status_bar_height">60dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="card_height">70dp</dimen>
+    <dimen name="splash_logo_size">120dp</dimen>
+</resources>

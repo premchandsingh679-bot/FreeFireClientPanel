@@ -75,6 +75,7 @@ public class FloatingPanelService extends Service {
         Notification notification = new Notification.Builder(this, CHANNEL_ID)
                 .setContentTitle("Free Fire Client Panel")
                 .setContentText("Floating panel is active")
+                .setSmallIcon(android.R.drawable.ic_dialog_info)
                 .build();
 
         startForeground(1, notification);
@@ -148,7 +149,6 @@ public class FloatingPanelService extends Service {
 
                     case MotionEvent.ACTION_UP:
                         long touchDuration = System.currentTimeMillis() - touchStartTime;
-                        // If it's a quick tap and not a drag, allow button clicks
                         if (touchDuration < 200) {
                             return false;
                         }
